@@ -1,0 +1,19 @@
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1285px;
+    margin: auto;
+
+    @media (max-width: 1600px) {
+        max-width: 90%;
+    }
+
+    @media (max-width: 575px) {
+        max-width: 100%;
+    }
+}

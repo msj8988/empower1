@@ -1,0 +1,208 @@
+.blog-sec {
+    background-color: #EBE0D3;
+    overflow: hidden;
+
+    .blog-container {
+        max-width: 1774px;
+        margin: auto;
+        padding: 140px 0 10px;
+
+        @media (max-width: 1200px) {
+            padding: 120px 0;
+        }
+        @media (max-width: 992px) {
+            padding: 80px 0;
+        }
+        @media (max-width: 767.5px) {
+            padding: 60px 0;
+        }
+
+        .blog-wrapper {
+            padding: 100px 0 100px;
+            background: #f4f4f4;
+            border-radius: 50px;
+            position: relative;
+
+            .container {
+                .top-content {
+                    text-align: left;
+                    width: 100%;
+                    margin: 0 auto 50px;
+
+                    span.meta {
+                        font-size: 20px;
+                        font-weight: normal;
+                        font-style: normal;
+                        text-align: left;
+                        color: #4eb3e8;
+                        padding-bottom: 20px;
+                    }
+                    h2.heading {
+                        font-size: 49px;
+                        font-weight: normal;
+                        line-height: 51px;
+                        font-style: normal;
+                        text-align: left;
+                        color: #000;
+                        margin-bottom: 40px;
+
+                        @media (max-width: 992px) {
+                            font-size: 40px;
+                        }
+                        @media (max-width: 767.5px) {
+                            font-size: 35px;
+                            margin-bottom: 30px;
+    
+                            br {
+                                display: none;
+                            }
+                        }
+
+                        @media (max-width: 575px) {
+                            font-size: 30px;
+                            margin-bottom: 15px;
+                            line-height: 35px;
+                        }
+    
+                        span {
+                            background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                        }
+                    }
+                    p.description {
+                        font-size: 16px;
+                        font-weight: normal;
+                        line-height: 26px;
+                        font-style: normal;
+                        text-align: left;
+                        color: #202020;
+                    }
+                }
+                .row {
+                    @media (max-width: 767.5px) {
+                        margin: 0;
+                    }
+                    .react-multi-carousel-list {
+                        ul.react-multi-carousel-track {
+                            padding-bottom: 100px;
+                        }
+
+                        button.react-multiple-carousel__arrow {
+                            border-color: #707070;
+                            border-width: 1px;
+                            border-style: solid;
+                            border-radius: 19px;
+                            background: #f4f4f4;
+                            height: 62px;
+                            width: 62px;
+
+                            @media (max-width: 767.5px) {
+                                height: 50px;
+                                width: 50px;
+                                border-radius: 12px;
+                            }
+
+                            @media (max-width: 575px) {
+                                height: 40px;
+                                width: 40px;
+                                border-radius: 8px;
+                            }
+
+                            &::before {
+                                color: #000;
+                            }
+                        }
+                        button.react-multiple-carousel__arrow--left {
+                            top: 130px;
+                        }
+                        button.react-multiple-carousel__arrow--right {
+                            top: 130px;
+                        }
+
+                        ul.react-multi-carousel-dot-list {
+                            .react-multi-carousel-dot--active {
+                                button {
+                                    background-color: #f89e52 !important;
+                                }
+                            }
+                            .react-multi-carousel-dot {
+                                button {
+                                    background-color: #ebe0d3;
+                                }
+                            }
+                        }
+                    }
+                    .col-md-12 {
+                        width: 96%;
+                        .blog-box {
+                            width: 100%;
+                            height: 430px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            flex-direction: column;
+                            gap: 10px;
+    
+                            .blog-img {
+                                width: 100%;
+                                min-height: 320px;
+                                height: 320px;
+                                object-fit: cover;
+                                border-radius: 10px;
+    
+                                img {
+                                    height: 100%;
+                                    width: 100%;
+                                    border-radius: 10px;
+                                }
+                            }
+
+                            .blog-content {
+                                width: 100%;
+                                padding: 30px 45px;
+                                border-radius: 20px;
+                                background: #ece0d4;
+                                height: 132px;
+
+                                p.description {
+                                    font-size: 16px;
+                                    font-weight: normal;
+                                    line-height: 26px;
+                                    font-style: normal;
+                                    text-align: left;
+                                    color: #000;
+                                }
+                                p.date-time {
+                                    font-size: 12px;
+                                    font-weight: normal;
+                                    line-height: 22px;
+                                    font-style: normal;
+                                    text-align: left;
+                                    color: #bababa;
+                                }
+                            }
+
+                            .blog-content.active {
+                                background: #71ba32;
+                                background: linear-gradient(-130deg, 
+                                #71ba32 0.00%, 
+                                #4eb3e8 100.00%);
+                                
+                                p.description {
+                                    color: #fff;
+                                }
+                                p.date-time {
+                                    color: #fff;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

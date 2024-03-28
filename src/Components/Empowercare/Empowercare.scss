@@ -1,0 +1,186 @@
+.empowercare-sec {
+    background-color: #EBE0D3;
+
+    .container {
+
+        .empowercare-wrapper {
+            padding: 10px 0 140px;
+
+            @media (max-width: 1200px) {
+                padding: 10px 0 120px;
+            }
+            @media (max-width: 992px) {
+                padding: 10px 0 80px;
+            }
+            @media (max-width: 767.5px) {
+                padding: 10px 0 60px;
+            }
+
+            .row {
+                align-items: center;
+                @media (max-width: 767.5px) {
+                    margin: 0;
+                }
+                .col-md-6 {
+                    .left-content {
+                        padding-right: 25px;
+
+                        @media (max-width: 767.5px) {
+                            padding: 0px;
+                        }
+                        
+                        span.meta {
+                            font-size: 20px;
+                            font-weight: normal;
+                            font-style: normal;
+                            text-align: left;
+                            color: #4EB3E8;
+                            margin-bottom: 7px;
+                        }
+                        h2.heading {
+                            font-size: 49px;
+                            font-weight: normal;
+                            line-height: 51px;
+                            font-style: normal;
+                            text-align: left;
+                            color: #000;
+                            margin-bottom: 20px;
+
+                            @media (max-width: 992px) {
+                                font-size: 40px;
+                            }
+                            @media (max-width: 767.5px) {
+                                font-size: 35px;
+                                margin-bottom: 30px;
+        
+                                br {
+                                    display: none;
+                                }
+                            }
+                            @media (max-width: 575px) {
+                                font-size: 30px;
+                                margin-bottom: 15px;
+                                line-height: 35px;
+                            }
+        
+                            span {
+                                background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-transform: uppercase;
+                                font-weight: bold;
+                            }
+                        }
+                        p.description {
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 26px;
+                            font-style: normal;
+                            text-align: left;
+                            color: #202020;
+                        }
+                        ul {
+                            padding-left: 18px;
+                            color: #4EB3E8;
+                            li {
+                                span {
+                                    font-size: 16px;
+                                    font-weight: normal;
+                                    line-height: 26px;
+                                    font-style: normal;
+                                    text-align: left;
+                                    color: #202020;
+                                }
+                            }
+                        }
+
+                        .sec-btns {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 80px;
+                            position: relative;
+                            width: max-content;
+
+                            @media (max-width: 500px) {
+                                width: 100%;
+                            }
+
+                            @media (max-width: 1200px) {
+                                margin-top: 60px;
+                            }
+                            @media (max-width: 992px) {
+                                margin-top: 40px;
+                            }
+                            @media (max-width: 767.5px) {
+                                margin-top: 30px;
+                            }
+
+                            button {
+                                width: 357px;
+                                height: 66px;
+                                border-radius: 19px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                background: #71ba32;
+                                background: linear-gradient(-130deg, 
+                                #71ba32 0.00%, 
+                                #4eb3e8 100.00%);
+                                border: 1px solid #fff;
+                                border: none;
+
+                                @media (max-width: 992px) {
+                                    width: max-content;
+                                    padding: 10px 40px 10px 20px;
+                                    white-space: pre-wrap;
+                                }
+
+                                span {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    font-style: normal;
+                                    text-align: center;
+                                    color: #fff;
+                                }
+
+                                img {
+                                    position: absolute;
+                                    top: 25px;
+                                    right: 20px;
+                                    height: 18px;
+                                    width: 18px;
+                                }
+                            }
+
+                            .active-img {
+                                position: absolute;
+                                top: -45px;
+                                right: -130px;
+
+                                @media (max-width: 767px) {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    .right-content {
+
+                        @media (max-width: 767.5px) {
+                            padding: 60px 0px 10px;
+                        }
+                        .section-img {
+                            text-align: left;
+
+                            img {
+                                @media (max-width: 1600px) {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

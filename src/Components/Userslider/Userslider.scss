@@ -1,0 +1,237 @@
+.user-slider-sec {
+    background-color: #EBE0D3;
+    overflow: hidden;
+
+    .user-slider-container {
+        max-width: 1774px;
+        margin: auto;
+
+        .user-slider-wrapper {
+            padding: 150px 0 50px;
+            position: relative;
+
+            @media (max-width: 1200px) {
+                padding: 120px 0 50px;
+            }
+            @media (max-width: 992px) {
+                padding: 80px 0 50px;
+            }
+            @media (max-width: 767.5px) {
+                padding: 60px 0 50px;
+            }
+
+            .container {
+
+                .row {
+                    @media (max-width: 767.5px) {
+                        margin: 0;
+                    }
+                    .react-multi-carousel-list {
+                        overflow: visible;
+
+                        ul.react-multi-carousel-track {
+                            padding-bottom: 100px;
+
+                            @media (max-width: 767.5px) {
+                                padding-bottom: 50px;
+                            }
+                        }
+
+                        button.react-multiple-carousel__arrow {
+                            border-color: #707070;
+                            border-width: 1px;
+                            border-style: solid;
+                            border-radius: 19px;
+                            background: #f4f4f4;
+                            height: 62px;
+                            width: 62px;
+
+                            &::before {
+                                color: #000;
+                            }
+                        }
+                        button.react-multiple-carousel__arrow--left {
+                            top: 130px;
+                        }
+                        button.react-multiple-carousel__arrow--right {
+                            top: 130px;
+                        }
+
+                        ul.react-multi-carousel-dot-list {
+                            .react-multi-carousel-dot--active {
+                                button {
+                                    background-color: #f89e52 !important;
+                                }
+                            }
+                            .react-multi-carousel-dot {
+                                button {
+                                    background-color: #ebe0d3;
+                                }
+                            }
+                        }
+                    }
+                    .col-md-12 {
+                        width: 96%;
+                        .user-box {
+                            width: 100%;
+                            height: 100%;
+                            min-height: 450px;
+                            border-radius: 37px;
+                            background: #ebe0d3;
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: space-between;
+                            flex-direction: column;
+                            padding: 40px 30px;
+                            border: 1px solid gray;
+    
+                            .user-logo {
+                                width: 120px;
+                                min-height: 120px;
+                                height: 120px;
+                                border-radius: 10px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-bottom: 30px;
+    
+                                img {
+                                    height: 100%;
+                                    width: 100%;
+                                    border-radius: 10px;
+                                }
+                            }
+    
+                            h4.heading {
+                                font-size: 22px;
+                                font-weight: normal;
+                                line-height: 29px;
+                                font-style: normal;
+                                text-align: left;
+                                color: #000000;
+                                text-transform: capitalize;
+                            }
+                            span.meta {
+                                font-size: 14px;
+                                font-weight: normal;
+                                line-height: 24px;
+                                font-style: normal;
+                                text-align: left;
+                                color: #BABABA;
+                            }
+                            p.description {
+                                font-size: 16px;
+                                font-weight: normal;
+                                line-height: 26px;
+                                font-style: normal;
+                                text-align: left;
+                                color: #202020;
+                            }
+                            .rating {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-bottom: 10px;
+                                gap: 2px;
+
+                                .rating-star {
+                                    svg {
+                                        color: #71ba32;
+                                    }
+                                }
+                            }
+                            a.learn-more {
+                                text-decoration: none;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                gap: 22px;
+                                width: 100%;
+                                cursor: pointer;
+
+                                span {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    line-height: 26px;
+                                    font-style: normal;
+                                    text-align: left;
+                                    color: #000000;
+                                    text-transform: uppercase;
+                                }
+
+                                img {
+                                    height: 14px;
+                                    width: 14px;                                
+                                }
+                            }
+                            
+                        }
+    
+                        .user-box.active {
+                            background: #71ba32;
+                            background: linear-gradient(-130deg, 
+                            #71ba32 0.00%, 
+                            #4eb3e8 100.00%);
+    
+                            .user-logo {
+                                background-color: #fff;
+                            }
+                            h4.heading {
+                                color: #fff;
+                            }
+                            p.description {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+
+                .bottom-btn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    margin: 0 0 50px 0;
+
+                    .apply-btn {
+                        width: 231px;
+                        height: 66px;
+                        border-radius: 19px;
+                        background: #71ba32;
+                        background: linear-gradient(-130deg, 
+                        #71ba32 0.00%, 
+                        #4eb3e8 100.00%);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        cursor: pointer;
+                        border: none;
+                        outline: none;
+
+                        @media (max-width: 992px) {
+                            width: max-content;
+                            padding: 10px 40px 10px 20px;
+                        }
+
+                        span {
+                            font-size: 16px;
+                            font-weight: 500;
+                            font-style: normal;
+                            text-align: center;
+                            color: #ffffff;
+                        }
+
+                        img {
+                            position: absolute;
+                            top: 25px;
+                            right: 20px;
+                            height: 18px;
+                            width: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

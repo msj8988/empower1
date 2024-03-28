@@ -1,0 +1,245 @@
+.Impact-sec {
+    background-color: #EBE0D3;
+
+    .container {
+
+        .Impact-wrapper {
+            padding: 150px 0 10px;
+
+            @media (max-width: 1200px) {
+                padding: 120px 0;
+            }
+            @media (max-width: 992px) {
+                padding: 80px 0;
+            }
+            @media (max-width: 767.5px) {
+                padding: 60px 0 0;
+            }
+
+            .top-content {
+                margin-bottom: 80px;
+                text-align: left;
+                width: 50%;
+
+                @media (max-width: 767.5px) {
+                    width: 100%;
+                    margin-bottom: 50px;
+                }
+
+                span.meta {
+                    font-size: 20px;
+                    font-weight: normal;
+                    font-style: normal;
+                    text-align: left;
+                    color: #4eb3e8;
+                }
+                h2.heading {
+                    font-size: 49px;
+                    font-weight: normal;
+                    line-height: 51px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #000;
+                    margin-bottom: 20px;
+
+                    @media (max-width: 992px) {
+                        font-size: 40px;
+                    }
+                    @media (max-width: 767.5px) {
+                        font-size: 35px;
+                        margin-bottom: 30px;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                    @media (max-width: 575px) {
+                        font-size: 30px;
+                        margin-bottom: 15px;
+                        line-height: 35px;
+                    }
+
+                    span {
+                        background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                }
+                p.description {
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 26px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #202020;
+                }
+            }
+            .row {
+                @media (max-width: 767.5px) {
+                    margin: 0;
+                    gap: 20px;
+                }
+                .col-md-4 {
+                    .job-box {
+                        width: 100%;
+                        height: 400px;
+                        border-radius: 22px;
+                        background: #f4f4f4;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        padding: 60px 40px;
+                        gap: 16px;
+
+                         @media (max-width: 767.5px) {
+                            width: 100%;
+                            padding: 30px;
+                            height: max-content;
+                        }
+
+                        h4.heading {
+                            font-size: 22px;
+                            font-weight: normal;
+                            line-height: 29px;
+                            font-style: normal;
+                            text-align: center;
+                            color: #000000;
+                        }
+                        p.description {
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 26px;
+                            font-style: normal;
+                            text-align: center;
+                            color: #202020;
+                        }
+                        button.impact-btn {
+                            width: 196px;
+                            height: 66px;
+                            border-radius: 19px;
+                            background: #71ba32;
+                            background: linear-gradient(-130deg, 
+                            #71ba32 0.00%, 
+                            #4eb3e8 100.00%);
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: none;
+
+                            @media (max-width: 992px) {
+                                width: max-content;
+                                height: max-content;
+                                padding: 15px 20px;
+                            }
+                            @media (max-width: 450px) {
+                                height: max-content;
+                                padding: 10px 10px;
+                                border-radius: 5px;
+                                height: 48px;
+                            }
+
+                            span {
+                                font-size: 16px;
+                                font-weight: 500;
+                                font-style: normal;
+                                text-align: center;
+                                color: #ebe0d3;
+                            }
+                        }
+                        
+                    }
+
+                    &:nth-child(2) {
+                        margin-top: -116px;
+
+                        @media (max-width: 1200px) {
+                            margin-top: 0;
+                        }
+                    }
+                    &:nth-child(3) {
+                        margin-top: -257px;
+                        @media (max-width: 1200px) {
+                            margin-top: 0;
+                        }
+                    }
+
+                    .job-box.active {
+                        background: #71ba32;
+                        background: linear-gradient(-135deg, 
+                        #71ba32 0.00%, 
+                        #4eb3e8 100.00%);
+
+                        button.impact-btn {
+                            background: #fff;
+
+                            span {
+                                color: #000000;
+                            }
+                        }
+                        h4.heading {
+                            color: #fff;
+                        }
+                        p.description {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .bottom-btns-row {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 70px 20px 20px;
+
+                @media (max-width: 992px) {
+                    margin: 50px 20px 20px;
+                }
+                @media (max-width: 767.5px) {
+                    margin: 30px 20px 20px;
+                }
+
+                button {
+                    width: 196px;
+                    height: 66px;
+                    border-radius: 19px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    @media (max-width: 992px) {
+                        width: max-content;
+                        height: max-content;
+                        padding: 15px 20px;
+                    }
+                    @media (max-width: 450px) {
+                        height: max-content;
+                        padding: 10px 10px;
+                        border-radius: 5px;
+                        height: 48px;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-style: normal;
+                        text-align: center;
+                        color: #000000;
+                    }
+                }
+                button.signup-btn {
+                    border-color: #000000;
+                    border-width: 2px;
+                    border-style: solid;
+                    background-color: transparent;
+
+                    span {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}

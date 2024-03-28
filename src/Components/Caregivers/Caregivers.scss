@@ -1,0 +1,146 @@
+.caregivers-sec {
+    background: #ebe0d3;
+
+    .caregivers-sec-bg {
+        background: #f4f4f4;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 135px;
+        border-bottom-right-radius: 0px;
+
+        @media (max-width: 992px) {
+            border-bottom-left-radius: 65px;
+        }
+
+        .container {
+            padding: 140px 0;
+
+            @media (max-width: 1200px) {
+                padding: 120px 0;
+            }
+            @media (max-width: 992px) {
+                padding: 80px 0;
+            }
+            @media (max-width: 767.5px) {
+                padding: 60px 0;
+            }
+    
+            .caregivers-wrapper {
+                position: relative;
+    
+                    .top-content {
+                        text-align: center;
+                        width: 65%;
+                        margin: 0 auto 50px;
+                        padding: 0 10px;
+
+                        @media (max-width: 992px) {
+                            width: 100%;
+                        }
+
+                        h2.heading {
+                            font-size: 49px;
+                            font-weight: normal;
+                            line-height: 51px;
+                            font-style: normal;
+                            text-align: center;
+                            color: #000;
+                            margin-bottom: 40px;
+
+                            @media (max-width: 992px) {
+                                font-size: 40px;
+                            }
+                            @media (max-width: 767.5px) {
+                                font-size: 35px;
+                                margin-bottom: 30px;
+        
+                                br {
+                                    display: none;
+                                }
+                            }
+                            @media (max-width: 575px) {
+                                font-size: 30px;
+                                margin-bottom: 15px;
+                                line-height: 35px;
+                            }
+        
+                            span {
+                                background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-transform: uppercase;
+                                font-weight: bold;
+                            }
+                        }
+                        p.description {
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 26px;
+                            font-style: normal;
+                            text-align: center;
+                            color: #202020;
+                        }
+                    }
+                    .row {
+                        @media (max-width: 767.5px) {
+                            margin: 0;
+                        }
+                        .col-md-12 {
+                            .link-items {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 30px;
+
+                                @media (max-width: 575px) {
+                                    gap: 10px;
+                                }
+    
+                                .link-item {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    text-decoration: none;
+                                    padding: 5px 20px;
+                                    cursor: pointer;
+    
+                                    span {
+                                        font-size: 22px;
+                                        font-weight: normal;
+                                        line-height: 31px;
+                                        font-style: normal;
+                                        text-align: left;
+                                        color: #000000;
+                                        margin-right: 10px;
+
+                                        @media (max-width: 575px) {
+                                            font-size: 18px;
+                                            line-height: 28px;
+                                        }
+                                    }
+    
+                                    img {
+                                        height: 20px;
+                                        width: 20px;
+                                    }
+                                }
+                            }
+    
+                            .bottom-text {
+                                margin: 50px 20px 20px;
+                                text-align: center;
+    
+                                p.meta {
+                                    font-size: 16px;
+                                    font-weight: normal;
+                                    line-height: 26px;
+                                    font-style: normal;
+                                    text-align: center;
+                                    color: #202020;
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+    }
+}

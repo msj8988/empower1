@@ -1,0 +1,211 @@
+.hcareer-sec {
+    background-color: #EBE0D3;
+
+    .container {
+
+        .hcareer-wrapper {
+            padding: 140px 0 10px;
+
+            @media (max-width: 1200px) {
+                padding: 120px 0;
+            }
+            @media (max-width: 992px) {
+                padding: 80px 0;
+            }
+            @media (max-width: 767.5px) {
+                padding: 60px 0 0;
+            }
+
+            .row {
+                align-items: center;
+                @media (max-width: 767.5px) {
+                    margin: 0;
+                }
+                .col-md-6 {
+                    .left-content {
+                        padding-right: 25px;
+
+                        @media (max-width: 767.5px) {
+                            padding: 0px;
+                        }
+                        
+                        span.meta {
+                            font-size: 20px;
+                            font-weight: normal;
+                            font-style: normal;
+                            text-align: left;
+                            color: #4EB3E8;
+                            margin-bottom: 7px;
+                        }
+                        h2.heading {
+                            font-size: 49px;
+                            font-weight: normal;
+                            line-height: 51px;
+                            font-style: normal;
+                            text-align: left;
+                            color: #000;
+                            margin-bottom: 20px;
+
+                            @media (max-width: 992px) {
+                                font-size: 40px;
+                            }
+                            @media (max-width: 767.5px) {
+                                font-size: 35px;
+                                margin-bottom: 30px;
+        
+                                br {
+                                    display: none;
+                                }
+                            }
+                            @media (max-width: 575px) {
+                                font-size: 30px;
+                                margin-bottom: 15px;
+                                line-height: 35px;
+                            }
+        
+                            span {
+                                background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-transform: uppercase;
+                                font-weight: bold;
+                            }
+                        }
+                        .explore-jobs {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+
+                            @media (max-width: 767.5px) {
+                                align-items: center;
+                            }
+
+                            .selection-field {
+                                width: 368px;
+                                height: 66px;
+                                border-color: #000000;
+                                border-width: 1px;
+                                border-style: solid;
+                                border-radius: 19px;
+                                background: #f4f4f4;
+                                padding: 25px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                @media (max-width: 500px) {
+                                    width: 100%;
+                                }
+
+                                span {
+                                    font-size: 16px;
+                                    font-weight: normal;
+                                    line-height: 26px;
+                                    font-style: normal;
+                                    text-align: left;
+                                    color: #202020;
+                                }
+
+                                img {
+                                    height: 15px;
+                                    width: 15px;
+                                }
+                            }
+                            .select-jobs {
+                                border-color: #b1b1b1;
+                                border-width: 1px;
+                                width: 368px;
+                                border-style: solid;
+                                border-radius: 19px;
+                                background: #f4f4f4;
+                                display: flex;
+                                flex-direction: column;
+                                padding: 35px 10px;
+
+                                @media (max-width: 500px) {
+                                   width: 100%;
+                                }
+
+                                .button-select {
+                                    .btn_check {
+                                        label {
+                                            width: 348px;
+                                            height: 59px;
+                                            background: transparent;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: flex-start;
+                                            padding: 20px;
+
+                                            @media (max-width: 500px) {
+                                                width: 100%;
+                                                padding: 10px;
+                                                align-items: flex-start;
+                                                text-align: left;
+                                             }
+                                        }
+                                        input {
+                                          display: none;
+                                        }
+                                        input:checked + label {
+                                            width: 348px;
+                                            height: 59px;
+                                            border-radius: 15px;
+                                            background: #ececec;
+                                            padding: 20px;
+                                        }
+                                      }
+                                }
+                                .bottom-btn {
+                                    margin-top: 10px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    .job-btn {
+                                        width: 310px;
+                                        height: 66px;
+                                        border-radius: 19px;
+                                        background: #71ba32;
+                                        background: linear-gradient(-130deg, 
+                                        #71ba32 0.00%, 
+                                        #4eb3e8 100.00%);
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        border: none;
+                                        outline: none;
+
+                                        span {
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            font-style: normal;
+                                            text-align: center;
+                                            color: #ebe0d3;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .right-content {
+                        @media (max-width: 767.5px) {
+                            padding: 60px 0px 10px;
+                        }
+                        .section-img {
+                            text-align: left;
+
+                            img {
+                                @media(max-width: 1600px) {
+                                    width: 100%;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

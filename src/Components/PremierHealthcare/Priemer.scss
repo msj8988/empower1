@@ -1,0 +1,237 @@
+.priemer-sec {
+    background-color: #EBE0D3;
+    overflow: hidden;
+
+    .priemer-container {
+        max-width: 1774px;
+        margin: auto;
+        padding: 140px 0;
+
+        @media (max-width: 1200px) {
+            padding: 120px 0;
+        }
+        @media (max-width: 992px) {
+            padding: 80px 0;
+        }
+        @media (max-width: 767.5px) {
+            padding: 60px 0;
+        }
+
+        .priemer-wrapper {
+            padding: 100px 0 200px;
+            background: #f4f4f4;
+            border-radius: 50px;
+            position: relative;
+
+            @media (max-width: 1200px) {
+                padding: 120px 0;
+            }
+            @media (max-width: 992px) {
+                padding: 80px 0 150px;
+            }
+            @media (max-width: 767.5px) {
+                padding: 60px 0 60px;
+            }
+
+            .empoer1 {
+                position: absolute;
+                bottom: 100px;
+                left: -85px;
+
+                @media (max-width: 992px) {
+                    display: none;
+                }
+            }
+
+            .empoer2 {
+                position: absolute;
+                top: 0;
+                right: -110px;
+
+                @media (max-width: 992px) {
+                    display: none;
+                }
+            }
+
+            .container {
+                .top-content {
+                    text-align: center;
+                    width: 65%;
+                    margin: 0 auto 50px;
+
+                    @media (max-width: 992px) {
+                        width: 100%;
+                    }
+
+                    span.meta {
+                        font-size: 20px;
+                        font-weight: normal;
+                        font-style: normal;
+                        text-align: center;
+                        color: #4eb3e8;
+                        padding-bottom: 20px;
+                    }
+                    h2.heading {
+                        font-size: 49px;
+                        font-weight: normal;
+                        line-height: 51px;
+                        font-style: normal;
+                        text-align: center;
+                        color: #000;
+                        margin-bottom: 40px;
+
+                        @media (max-width: 992px) {
+                            font-size: 40px;
+                        }
+                        @media (max-width: 767.5px) {
+                            font-size: 35px;
+                            margin-bottom: 30px;
+    
+                            br {
+                                display: none;
+                            }
+                        }
+                        @media (max-width: 575px) {
+                            font-size: 30px;
+                            margin-bottom: 15px;
+                            line-height: 35px;
+                        }
+    
+                        span {
+                            background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                        }
+                    }
+                    p.description {
+                        font-size: 16px;
+                        font-weight: normal;
+                        line-height: 26px;
+                        font-style: normal;
+                        text-align: center;
+                        color: #202020;
+                    }
+                }
+                .row {
+                    @media (max-width: 767.5px) {
+                        margin: 0;
+                        gap: 20px;
+                    }
+                    .react-multi-carousel-list {
+                        ul.react-multi-carousel-track {
+                            padding-bottom: 70px;
+                        }
+
+                        ul.react-multi-carousel-dot-list {
+                            .react-multi-carousel-dot--active {
+                                button {
+                                    background-color: #f89e52 !important;
+                                }
+                            }
+                            .react-multi-carousel-dot {
+                                button {
+                                    background-color: #ebe0d3;
+                                }
+                            }
+                        }
+                    }
+                    .col-md-12 {
+                        width: 96%;
+                        .job-box {
+                            width: 100%;
+                            height: 430px;
+                            border-radius: 37px;
+                            background: #ebe0d3;
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: space-between;
+                            flex-direction: column;
+                            padding: 60px 40px;
+
+                            @media (max-width: 767.5px) {
+                                width: 100%;
+                                padding: 30px;
+                                height: max-content;
+                            }
+    
+                            .job-logo {
+                                width: 90px;
+                                min-height: 90px;
+                                height: 90px;
+                                background: #ebe0d3;
+                                border-radius: 50%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+    
+                                img {
+                                    height: auto;
+                                    width: auto;
+                                }
+                            }
+    
+                            h4.heading {
+                                font-size: 22px;
+                                font-weight: normal;
+                                line-height: 29px;
+                                font-style: normal;
+                                text-align: left;
+                                color: #000000;
+                            }
+                            p.description {
+                                font-size: 16px;
+                                font-weight: normal;
+                                line-height: 26px;
+                                font-style: normal;
+                                text-align: left;
+                                color: #202020;
+                            }
+                            a.learn-more {
+                                text-decoration: none;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                gap: 22px;
+                                cursor: pointer;
+
+                                span {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    line-height: 26px;
+                                    font-style: normal;
+                                    text-align: left;
+                                    color: #000000;
+                                }
+
+                                img {
+                                    height: 14px;
+                                    width: 14px;                                
+                                }
+                            }
+                            
+                        }
+    
+                        .job-box.active {
+                            background: #71ba32;
+                            background: linear-gradient(-130deg, 
+                            #71ba32 0.00%, 
+                            #4eb3e8 100.00%);
+    
+                            .job-logo {
+                                background-color: #fff;
+                            }
+                            h4.heading {
+                                color: #fff;
+                            }
+                            p.description {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

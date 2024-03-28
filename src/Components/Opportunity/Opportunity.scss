@@ -1,0 +1,152 @@
+.opportunity-sec {
+    background-color: #EBE0D3;
+    background-image: url(../../Assets/bodybg1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    background-color: #EBE0D3;
+
+    .opportunity-container {
+        max-width: 1774px;
+        margin: auto;
+        padding: 140px 0;
+
+        @media (max-width: 1200px) {
+            padding: 120px 0;
+        }
+        @media (max-width: 992px) {
+            padding: 80px 0;
+        }
+        @media (max-width: 767.5px) {
+            padding: 60px 0;
+        }
+
+        .opportunity-wrapper {
+            padding: 140px 0;
+            border-radius: 50px;
+            // background: #71ba32;
+            background: radial-gradient(farthest-corner at 83% 8%, #71ba32 0%, #4eb3e8 100%);
+
+            @media (max-width: 1200px) {
+                padding: 120px 0;
+            }
+            @media (max-width: 992px) {
+                padding: 80px 0;
+            }
+            @media (max-width: 767.5px) {
+                padding: 60px 0;
+            }
+
+            .row {
+                @media (max-width: 767.5px) {
+                    margin: 0;
+                }
+                .col-md-6 {
+                    .left-content {
+                        padding-right: 70px;
+
+                        @media (max-width: 767.5px) {
+                            padding-right: 0px;
+                        }
+                        
+                        span.meta {
+                            font-size: 20px;
+                            font-weight: 600;
+                            font-style: normal;
+                            text-align: left;
+                            color: #fff;
+                            margin-bottom: 7px;
+                        }
+                        h2.heading {
+                            font-size: 49px;
+                            font-weight: 600;
+                            line-height: 51px;
+                            font-style: normal;
+                            text-align: left;
+                            color: #fff;
+                            margin-bottom: 20px;
+
+                            @media (max-width: 992px) {
+                                font-size: 40px;
+                            }
+                            @media (max-width: 767.5px) {
+                                font-size: 35px;
+                                margin-bottom: 30px;
+        
+                                br {
+                                    display: none;
+                                }
+                            }
+                            @media (max-width: 575px) {
+                                font-size: 30px;
+                                margin-bottom: 15px;
+                                line-height: 35px;
+                            }
+        
+                            span {
+                                color: #000;
+                            }
+                        }
+                        p.description {
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 26px;
+                            font-style: normal;
+                            text-align: left;
+                            color: #fff;
+                            margin-bottom: 20px;
+                        }
+
+                        .sec-btns {
+                            display: flex;
+                            align-items: center;
+                            gap: 28px;
+
+                            button {
+                                width: 336px;
+                                height: 66px;
+                                border-radius: 19px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                background-color: #fff;
+                                border: 1px solid #fff;
+                                padding: 20px;
+
+
+                                span {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    font-style: normal;
+                                    text-align: center;
+                                    color: #000000;
+                                }
+
+                                img {
+                                    filter: brightness(1) invert(1);
+                                }
+                            }
+                        }
+                    }
+
+                    .right-content {
+                        @media (max-width: 767.5px) {
+                            padding: 60px 0px 10px;
+                        }
+                        .section-img {
+                            text-align: right;
+
+                            img {
+
+                                @media(max-width: 1600px) {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
