@@ -1,0 +1,249 @@
+.banner_varient_1 .main-banner {
+    background-image: url(../../Assets/bannerbg1.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    margin-top: -270px;
+    background-color: #EBE0D3;
+
+    .container {
+
+        .banner-wrapper {
+            padding: 415px 10px 10px;
+
+            .row {
+                margin-bottom: 200px;
+                align-items: center;
+
+                @media (max-width: 1200px) {
+                    margin-bottom: 150px;
+                }
+                @media (max-width: 992px) {
+                    margin-bottom: 100px;
+                }
+                @media (max-width: 767.5px) {
+                    margin-bottom: 50px;
+                    margin: 0;
+                }
+                .col-lg-6 {
+
+                    .banner-content {
+
+                        h1.heading {
+                            font-size: 77px;
+                            font-weight: 600;
+                            line-height: 75px;
+                            font-style: normal;
+                            text-align: left;
+                            color: #ffffff;
+                            margin-bottom: 50px;
+
+                            @media (max-width: 1200px) {
+                                font-size: 60px;
+                                margin-bottom: 40px;
+                            }
+
+                            @media (max-width: 992px) {
+                                font-size: 50px;
+                                margin-bottom: 30px;
+                                line-height: 55px;
+                            }
+                            @media (max-width: 767.5px) {
+                                br {
+                                    display: none;
+                                }
+                            }
+                            @media (max-width: 575px) {
+                                font-size: 40px;
+                                margin-bottom: 20px;
+                                line-height: 45px;
+                            }
+
+                            span {
+                                background: -webkit-linear-gradient(180deg, #71ba32, #4eb3e8);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-transform: uppercase;
+                                font-weight: bold;
+                            }
+                        }
+
+                        p.description {
+                            font-size: 20px;
+                            font-weight: 500;
+                            font-style: normal;
+                            text-align: left;
+                            color: #ffffff;
+                            margin-bottom: 20px;
+
+                            @media (max-width: 575px) {
+                                font-size: 18px;
+                                margin-bottom: 10px;
+                            }
+                        }
+
+                        span.meta {
+                            font-size: 16px;
+                            font-weight: normal;
+                            font-style: normal;
+                            text-align: left;
+                            color: #ffffff;
+                        }
+
+                        .banner-btns {
+                            display: flex;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            gap: 28px;
+                            margin: 40px 0 20px;
+
+                            button.btn {
+                                width: 196px;
+                                height: 66px;
+                                border-radius: 19px;
+                                padding: 5px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                @media (max-width: 992px) {
+                                    width: max-content;
+                                    height: max-content;
+                                    padding: 15px 20px;
+                                }
+                                @media (max-width: 450px) {
+                                    height: max-content;
+                                    padding: 10px 10px;
+                                    border-radius: 5px;
+                                    height: 48px;
+                                }
+
+                                span {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    font-style: normal;
+                                    text-align: center;
+                                }
+                            }
+                            .quick-btn {
+                                background: #71ba32;
+                                background: #ffffff;
+
+                                span {
+                                    color: #000000;
+                                }
+                            }
+                            .contact-btn {
+                                border-color: #ffffff;
+                                border-width: 2px;
+                                border-style: solid;
+                                background-color: transparent;
+
+                                span {
+                                    color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                }
+                .col-lg-6 {
+                    .banner-img {
+                        @media (max-width: 767.2px) {
+                            padding: 50px 20px;
+                        }
+                        img {
+                            @media(max-width: 1600px) {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .selection-row {
+                border-radius: 32px;
+                filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.04 ));
+                background: #ffffff;
+                margin: 50px 0;
+
+                @media (max-width: 575px) {
+                    margin: 40px 0 0;
+                }
+
+                .selection-wrap {
+                    display: flex;
+                    align-items: center;
+                    padding: 26px 28px;
+                    gap: 9px;
+                    width: 100%;
+
+                    @media (max-width: 992px) {
+                        flex-wrap: wrap;
+                    }
+
+                    select {
+                        border-color: #dfdfdf;
+                        border-width: 1px;
+                        border-style: solid;
+                        border-radius: 19px;
+                        background: #ffffff;
+                        width: 320px;
+                        height: 59px;
+                        padding: 20px;
+                        font-size: 13px;
+                        font-weight: 500;
+                        font-style: normal;
+                        text-align: left;
+                        color: #202020;
+
+                        @media (max-width: 767.5px) {
+                            width: 50%;
+                        }
+
+                        @media (max-width: 575px) {
+                            width: 100%;
+                        }
+
+                        option {
+                            font-size: 13px;
+                            font-weight: 500;
+                            font-style: normal;
+                            text-align: left;
+                            color: #202020;
+                        }
+                    }
+
+                    button.available-btn {
+                        width: 241px;
+                        height: 59px;
+                        border-radius: 19px;
+                        background: #4eb3e8;
+                        background: linear-gradient(-46deg, 
+                        #4eb3e8 0.00%, 
+                        #71ba32 100.00%);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 10px;
+
+                        @media (max-width: 767.5px) {
+                            width: 50%;
+                        }
+
+                        @media (max-width: 575px) {
+                            width: 100%;
+                        }
+
+                        span {
+                            font-size: 13px;
+                            font-weight: 500;
+                            font-style: normal;
+                            text-align: center;
+                            color: #ebe0d3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,32 +1,13 @@
 import React from 'react';
-import './Choose.scss';
+import './Choose1.scss';
 
-const Choose = (props) => {
+const Choose1 = (props) => {
     return (
-        <div className="choose-sec">
+        <div className="choose-sec1">
             <div className="choose-container">
                 <div className="choose-wrapper">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6">
-                                <div className="left-content">
-                                    <span className="meta">{props.meta}</span>
-                                    <h2 className="heading">
-                                        {props.heading} <span> {props.spantext}</span> {props.headingafter} 
-                                    </h2>
-                                    <p className="description">{props.description1}</p>
-                                    <p className="description">{props.description2}</p>
-                                
-                                    <div className="sec-btns">
-                                        <button className="learn-btn">
-                                            <span>Learn More</span>
-                                        </button>
-                                        <button className="signup-btn">
-                                            <span>Sign up</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
                             <div className="col-md-6">
                                 <div className="right-content">
                                     <div className="content-row">
@@ -47,6 +28,25 @@ const Choose = (props) => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-md-6">
+                                <div className="left-content">
+                                    <span className="meta">{props.meta}</span>
+                                    <h2 className="heading">
+                                        {props.heading} <span> {props.spantext}</span> {props.headingafter} 
+                                    </h2>
+                                    <p className="description">{props.description1}</p>
+                                    <p className="description">{props.description2}</p>
+                                
+                                    <div className="sec-btns">
+                                        <button className="learn-btn">
+                                            <span>Learn More</span>
+                                        </button>
+                                        <button className="signup-btn">
+                                            <span>Sign up</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,4 +55,4 @@ const Choose = (props) => {
     )
 }
 
-export default Choose
+export default Choose1

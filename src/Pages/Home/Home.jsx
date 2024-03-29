@@ -29,7 +29,14 @@ const Home = () => {
         <Trusted />
         <Healthcare />
         <Approach />
-        <Choose />
+        <Choose 
+          meta="Dynamic Squads"
+          spantext = "Squads:"
+          heading = "Why"
+          headingafter = "professionals choose empowercare"
+          description1 = "EmpowerCare's Dynamic Squads offer a comprehensive approach to meet all your career needs. Our personalized solutions help you achieve your professional goals while balancing your lifestyle."
+          description2 = "Just like CPR breathes life into critical situations, our Dynamic Squads revitalize your career journey." 
+        />
         <Impact />
         <Opportunity />
         <Contractjob />

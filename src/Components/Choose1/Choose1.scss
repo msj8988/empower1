@@ -1,4 +1,4 @@
-.choose-sec {
+.choose-sec1 {
     background-color: #EBE0D3;
 
     .choose-container {
@@ -8,7 +8,7 @@
         .choose-wrapper {
             padding: 140px 0;
             border-radius: 50px;
-            background: #f4f4f4;
+            // background: #f4f4f4;
 
             @media (max-width: 1200px) {
                 padding: 120px 0;
@@ -26,10 +26,10 @@
                 }
                 .col-md-6 {
                     .left-content {
-                        padding-right: 100px;
+                        padding-left: 100px;
 
                         @media (max-width: 767.5px) {
-                            padding-right: unset;
+                            padding-left: unset;
                         }
                         
                         span.meta {
@@ -134,6 +134,7 @@
                                 border-color: #000000;
                                 border-width: 2px;
                                 border-style: solid;
+                                background-color: transparent;
 
                                 span {
                                     color: #000000;
@@ -156,7 +157,7 @@
                                 width: 100%;
                                 height: 161px;
                                 border-radius: 22px;
-                                background: #ece0d4;
+                                background: #ffffff;
                                 padding: 20px 32px;
 
                                 @media (max-width: 1600px) {

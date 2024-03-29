@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn_gradient{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+a.btn.quick-btn{
+  background: linear-gradient(-130deg, #71ba32 0%, #4eb3e8 100%);
+  width: 196px;
+  height: 66px;
+  border-radius: 19px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
